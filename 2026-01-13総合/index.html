@@ -2,10 +2,10 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/pyxel.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pyxel Web App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/pyxel.js"></script>
 </head>
 <body>
     <main class="container">
@@ -15,7 +15,7 @@
         </header>
 
         <div id="game-wrapper" class="is-small">
-            <pyxel-player src="app.py" name="App" modules="" resources="" gamepad="enabled"></pyxel-player>
+            <pyxel-player id="my-pyxel" src="app.py" name="App"></pyxel-player>
         </div>
 
         <footer>
