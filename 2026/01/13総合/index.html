@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyxel Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/kitao/pyxel/wasm/pyxel.js"></script>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>My Pyxel Project</h1>
+            <p>ウィンドウをクリックしてゲームを開始</p>
+        </header>
+
+        <div id="game-wrapper" class="is-small">
+            <pyxel-player src="app.py" name="App" modules="" resources="" gamepad="enabled"></pyxel-player>
+        </div>
+
+        <footer>
+            <p>Created with Pyxel & TypeScript</p>
+        </footer>
+    </main>
+    <script src="main.js"></script> </body>
+</html>

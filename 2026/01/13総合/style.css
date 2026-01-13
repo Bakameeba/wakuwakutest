@@ -1,0 +1,54 @@
+/* 全体のレイアウト */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* スクロール防止 */
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ゲームウィンドウのスタイル */
+#game-wrapper {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border: 4px solid #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 小さい状態 */
+#game-wrapper.is-small {
+    width: 320px;
+    height: 240px;
+}
+
+/* 拡大状態 */
+#game-wrapper.is-expanded {
+    width: 80vw;
+    height: 80vh;
+    border-color: #5f5;
+}
+
+/* Pyxel要素をコンテナにフィットさせる */
+pyxel-player {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
