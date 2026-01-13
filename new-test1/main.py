@@ -3,7 +3,7 @@ class App:
     def __init__(self):
         pyxel.init(256, 256)
         self.x, self.y = 48, 48
-        self.color = pyxel.COLOR_RED
+        self.color = pyxel.COLOR_GREEN
         pyxel.run(self.update, self.draw)    
     def update(self):
         #十字キー
