@@ -1,4 +1,11 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyxel Web App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
 <body>
     <main class="container">
         <header>
@@ -7,7 +14,11 @@
         </header>
 
         <div id="game-wrapper" class="is-small">
-            <pyxel-player id="my-pyxel" src="./app.py" name="App" command="run"></pyxel-player>
+            <pyxel-player
+                id="my-pyxel"
+                name="App"
+                command="run"
+                ></pyxel-player>
         </div>
 
         <footer>

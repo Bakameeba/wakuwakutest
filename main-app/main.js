@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameWrapper = document.getElementById('game-wrapper');
 
     // 初期状態では src を空にするか、自動実行を防ぐ
-    // (HTML側で既に src がある場合は、一度保持して削除しておく)
-    const scriptSrc = "./app.py"; 
+    // (HTML側で既に src がある場合は、一度保持して削除しておく) 
+    const scriptSrc = "https://kitao.github.io/pyxel/wasm/launcher/?run=Bakameeba.wakuwakutest.new-test1.main"; 
     
     // クリックイベントの監視
     gameWrapper.addEventListener('click', () => {
