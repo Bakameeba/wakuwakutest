@@ -1,3 +1,3 @@
 がんばるわよ〜〜〜〜〜〜ん❤❤❤❤❤❤❤
 
-一旦このファイルでやってます→new-test1
+一旦このデプロイを使う▷https://bakameeba.github.io/wakuwakutest/main-app/
