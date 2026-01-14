@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         //すでに起動している場合
         else { 
+            alert('end?');
 
             console.log("Pyxel Stopping...");
 
