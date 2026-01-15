@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         //すでに起動している場合
         else { 
+            // アラートを出す
             const willEnd = window.confirm("プレイを止めますか？");
             if(!willEnd) return
 
